@@ -86,9 +86,7 @@ function AboutCard() {
                 <ImPointRight />{" "}
                 <a id="repoText" href={repo.html_url} target="_blank" rel="noopener noreferrer">
                   {repo.name}
-                </a>{" => "}
-                {/* Displaying starred count */}
-                <div>Stars: {repo.stargazers_count}</div>
+                </a>
               </li>
             ))}
           </ul>
