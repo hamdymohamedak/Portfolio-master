@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Card from "react-bootstrap/Card";
 import { ImPointRight } from "react-icons/im";
+import { Octokit } from "@octokit/core";
 
 function AboutCard() {
   const [githubRepos, setGithubRepos] = useState([]);
@@ -8,7 +9,9 @@ function AboutCard() {
   useEffect(() => {
     const fetchGithubRepos = async () => {
       try {
-        const response = await fetch("https://api.github.com/users/hamdymohamedak/repos");
+        const response = await fetch(
+          "https://api.github.com/users/hamdymohamedak/repos"
+        );
         if (response.ok) {
           const data = await response.json();
           setGithubRepos(data);
@@ -23,16 +26,23 @@ function AboutCard() {
     fetchGithubRepos();
   }, []);
 
+  // Octokit.js
+  // https://github.com/octokit/core.js#readme
+  const octokit = new Octokit({
+    auth: "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",
+  });
+
   // Function to fetch starred count for a repository
-  const fetchStarCount = async (starredUrl) => {
+  const fetchStarCount = async (owner, repo) => {
     try {
-      const response = await fetch(starredUrl);
-      if (response.ok) {
-        const data = await response.json();
-        return data.length; // Length of the array represents the number of stars
-      } else {
-        throw new Error("Failed to fetch starred count");
-      }
+      const { data } = await octokit.request("GET /repos/{owner}/{repo}", {
+        owner,
+        repo,
+        headers: {
+          "X-GitHub-Api-Version": "2022-11-28",
+        },
+      });
+      return data.stargazers_count;
     } catch (error) {
       console.error("Error fetching starred count:", error);
       return 0;
@@ -84,7 +94,12 @@ function AboutCard() {
             {githubRepos.map((repo) => (
               <li key={repo.id} id="reposParent" className="about-activity">
                 <ImPointRight />{" "}
-                <a id="repoText" href={repo.html_url} target="_blank" rel="noopener noreferrer">
+                <a
+                  id="repoText"
+                  href={repo.html_url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   {repo.name}
                 </a>
               </li>

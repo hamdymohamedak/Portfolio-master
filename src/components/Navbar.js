@@ -89,7 +89,7 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                href="https://www.facebook.com/hashtag/%D8%A7%D8%AA%D8%B9%D9%84%D9%85_%D9%83%D9%88%D8%AF%D9%8A%D9%86%D8%AC/"
+                href="https://www.facebook.com/profile/100049172018232/search/?q=%23%D8%A7%D8%AA%D8%B9%D9%84%D9%85_%D9%83%D9%88%D8%AF%D9%8A%D9%86%D8%AC"
                 target="_blank"
                 rel="noreferrer"
               >
