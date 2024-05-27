@@ -8,7 +8,7 @@ import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
-
+import myLogo from "../../Assets/logo.svg";
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -47,7 +47,7 @@ function Projects() {
               isBlog={false}
               title="CodeMinifyer"
               description="CSS code minifyer for more performance to your WebSite"
-              demoLink="https://hamdymohamedak.github.io/code_minifyer-/"              
+              demoLink="https://hamdymohamedak.github.io/code_minifyer-/"
             />
           </Col>
 
@@ -77,7 +77,17 @@ function Projects() {
               isBlog={false}
               title="AKGames"
               description="download games for free Now with AKGames its a website have games for download it for free"
-              demoLink="https://akgames.vercel.app/"      
+              demoLink="https://akgames.vercel.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={myLogo}
+              isBlog={false}
+              title="ak-macros"
+              description="Powerful Features of AK-Macros Library
+              Discover the capabilities of AK-Macros for efficient Rust development"
+              demoLink="https://ak-macros.vercel.app/"
             />
           </Col>
         </Row>
