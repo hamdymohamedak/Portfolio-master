@@ -14,10 +14,13 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Developed by HamdyMohamedAK </h3>
+          <h3>Developed by HamdyMohamedAK
+            <div>              <img className="profileViews" src="https://visitcount.itsvg.in/api?id=hamdymohamedak&label=Profile%20Views&color=1&pretty=true)](https://visitcount.itsvg.in" />
+            </div>
+          </h3>
         </Col>
         <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} <span style={{fontWeight:"bold"}}>AK</span> </h3>
+          <h3>Copyright © {year} <span style={{ fontWeight: "bold" }}>AK</span> </h3>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
@@ -25,7 +28,7 @@ function Footer() {
               <a
                 href="https://github.com/hamdymohamedak"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <AiFillGithub />
@@ -35,7 +38,7 @@ function Footer() {
               <a
                 href="https://twitter.com/HamdyMohamedd1"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <AiOutlineTwitter />
@@ -45,7 +48,7 @@ function Footer() {
               <a
                 href="https://www.linkedin.com/in/hamdy-askander-b67b32246/"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <FaLinkedinIn />
@@ -55,7 +58,7 @@ function Footer() {
               <a
                 href="https://www.instagram.com/askander_19/"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <AiFillInstagram />

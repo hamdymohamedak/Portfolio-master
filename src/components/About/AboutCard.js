@@ -90,7 +90,7 @@ function AboutCard() {
 
         <div>
           <h4>GitHub Repositories:</h4>
-          <ul>
+          <ul className="ul_Repo">
             {githubRepos.map((repo) => (
               <li key={repo.id} id="reposParent" className="about-activity">
                 <ImPointRight />{" "}
