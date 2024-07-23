@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/favicon.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -22,7 +22,7 @@ function Home2() {
               I fell in love with programming and I have at least learnt
               something, I think… 🤷‍♂️
               <br />
-              <br />I am proficient in programming languages ​​such as 
+              <br />I am proficient in programming languages ​​such as
               <i>
                 <b className="purple"> Rust, Javascript</b>
               </i>
@@ -54,7 +54,12 @@ function Home2() {
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img src={myImg} className="img-fluid" alt="avatar"
+                style={{
+                  maxWidth: "100%", height: "auto", boxShadow: "0px 0px 9px 0px cyan",
+                  borderRadius: "12%"
+                }}
+              />
             </Tilt>
           </Col>
         </Row>
@@ -71,6 +76,7 @@ function Home2() {
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
+
                 >
                   <AiFillGithub />
                 </a>
@@ -81,6 +87,7 @@ function Home2() {
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
+
                 >
                   <AiOutlineTwitter />
                 </a>
@@ -91,6 +98,7 @@ function Home2() {
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
+
                 >
                   <FaLinkedinIn />
                 </a>
