@@ -1,6 +1,5 @@
-import React from "react";
+import React, { memo } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/favicon.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -9,7 +8,7 @@ import {
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
-function Home2() {
+const Home2 = memo(() => {
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
@@ -54,7 +53,7 @@ function Home2() {
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar"
+              <img src="https://i.ibb.co/tBF44XN/logo.png" loading="lazy" className="img-fluid" alt="avatar"
                 style={{
                   maxWidth: "100%", height: "auto", boxShadow: "0px 0px 9px 0px cyan",
                   borderRadius: "12%"
@@ -76,7 +75,6 @@ function Home2() {
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
-
                 >
                   <AiFillGithub />
                 </a>
@@ -87,7 +85,6 @@ function Home2() {
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
-
                 >
                   <AiOutlineTwitter />
                 </a>
@@ -98,7 +95,6 @@ function Home2() {
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
-
                 >
                   <FaLinkedinIn />
                 </a>
@@ -119,5 +115,6 @@ function Home2() {
       </Container>
     </Container>
   );
-}
+});
+
 export default Home2;

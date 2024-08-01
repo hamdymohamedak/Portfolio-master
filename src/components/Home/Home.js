@@ -1,9 +1,10 @@
-import React from "react";
+import React, { Suspense, lazy } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
-import Home2 from "./Home2";
 import Type from "./Type";
+
+const Home2 = lazy(() => import("./Home2"));
 
 function Home() {
   return (
@@ -36,12 +37,15 @@ function Home() {
                 alt="home pic"
                 className="img-fluid"
                 style={{ maxHeight: "450px" }}
+                loading="lazy"
               />
             </Col>
           </Row>
         </Container>
       </Container>
-      <Home2 />
+      <Suspense fallback={<div>Loading...</div>}>
+        <Home2 />
+      </Suspense>
     </section>
   );
 }

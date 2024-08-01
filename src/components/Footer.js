@@ -14,13 +14,22 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Developed by HamdyMohamedAK
-            <div>              <img className="profileViews" src="https://visitcount.itsvg.in/api?id=hamdymohamedak&label=Profile%20Views&color=1&pretty=true)](https://visitcount.itsvg.in" />
+          <h3>
+            Developed by HamdyMohamedAK
+            <div>
+              {" "}
+              <img
+                className="profileViews"
+                src="https://visitcount.itsvg.in/api?id=hamdymohamedak&label=Profile%20Views&color=1&pretty=true)](https://visitcount.itsvg.in"
+                alt="profile Views"
+              />
             </div>
           </h3>
         </Col>
         <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} <span style={{ fontWeight: "bold" }}>AK</span> </h3>
+          <h3>
+            Copyright © {year} <span style={{ fontWeight: "bold" }}>AK</span>{" "}
+          </h3>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
