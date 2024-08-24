@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
 import Type from "./Type";
-
+import { AnimatedText,WaveText } from "../../LaRose";
 const Home2 = lazy(() => import("./Home2"));
 
 function Home() {
@@ -23,7 +23,12 @@ function Home() {
 
               <h1 className="heading-name">
                 I'M
-                <strong className="main-name"> Hamdy Mohamed</strong>
+                <strong className="main-name">
+                  <WaveText delay={0.35} animationType="zoomIn">
+                    Hamdy-Mohamed
+                  </WaveText>
+                </strong>
+                {/* <WaveText  RoseName="main-name">Hamdy-Mohamed</WaveText> */}
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
