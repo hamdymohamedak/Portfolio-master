@@ -16,6 +16,72 @@ Hi, I'm Hamdy Mohamed, a Front End Developer based in Alexandria, Egypt. I began
 
 ## Projects
 
+### AkChatbot
+
+- **Description:** An advanced AI chatbot application designed to deliver intelligent, interactive conversations. Built with React and LaRose, it offers cutting-edge animations and a user-friendly interface to enhance your interactive experience.
+- **Features:**
+  - Intelligent Conversations: Leverages AI to provide responsive and context-aware interactions.
+  - Interactive Animations: Uses LaRose for smooth, engaging animations.
+  - User-Friendly Interface: Designed with React to ensure a seamless and intuitive user experience.
+- **Live Demo:** You can try out AkChatbot [here](#).
+- **Getting Started:**
+  - **Prerequisites:**
+    - Node.js (v14.x or later)
+    - npm (comes with Node.js)
+  - **Installation:**
+    1. Clone the repository:
+       ```bash
+       git clone https://github.com/yourusername/AkChatbot.git
+       ```
+    2. Navigate to the project directory:
+       ```bash
+       cd AkChatbot
+       ```
+    3. Install dependencies:
+       ```bash
+       npm install
+       ```
+    4. Start the development server:
+       ```bash
+       npm start
+       ```
+    Your application will be available at [http://localhost:3000](http://localhost:3000).
+  - **Usage:** Once the development server is running, you can interact with the chatbot directly in your browser. Customize the bot's responses and behavior by editing the relevant components and state management files.
+  - **Contributing:** Contributions are welcome! Please follow these steps to contribute:
+    1. Fork the repository.
+    2. Create a new branch for your feature or bug fix.
+    3. Commit your changes and push to the branch.
+    4. Open a pull request.
+  - **License:** This project is licensed under the MIT License. See the LICENSE file for details.
+
+### ADBTOOLKIT
+
+- **Description:** A tool that simplifies running `adb` and `scrcpy` without using the command line. It connects your device's IP to the ADB server and allows you to view your mobile screen on your laptop or PC.
+- **Features:**
+  - Connects your device's IP to the ADB server.
+  - Runs `scrcpy` to view your mobile screen on your laptop or PC.
+  - Eliminates the need to use the command line.
+- **Screenshot:**
+
+  ![Screenshot 1](adbToolkit.png)
+- **Usage:**
+  - Add the path to `adb` and `scrcpy` tools in your system's advanced system settings.
+  - Use the tool to connect and view your mobile screen.
+- **Run Project:**
+  1. Clone the repository:
+     ```bash
+     git clone "https://github.com/hamdymohamedak/adbtoolkit.git"
+     ```
+  2. Navigate to the project directory:
+     ```bash
+     cd adbtoolkit
+     ```
+  3. Run the project:
+     ```bash
+     cargo run
+     ```
+  4. You can edit code from `main.rs` in the `src` folder.
+
 ### WAsender
 
 - **Description:** An application that allows you to send WhatsApp messages with a timer.
@@ -40,11 +106,6 @@ Hi, I'm Hamdy Mohamed, a Front End Developer based in Alexandria, Egypt. I began
 - **Description:** A to-do list application that allows users to record notes and ideas in local storage. Users can also organize and create different lists.
 - **Features:** Note-taking, list management, and local storage integration.
 
-### ADBTOOLKIT
-
-- **Description:** A tool that uses ADB and scrcpy to connect your phone's IP to Windows without writing code in the command line.
-- **Features:** Simplified connection between phone and Windows through ADB and scrcpy.
-
 ### EL-Maram Pharmacy
 
 - **Description:** An application for ordering delivery medications from Al Maram Pharmacies in Alexandria.
@@ -65,6 +126,35 @@ Hi, I'm Hamdy Mohamed, a Front End Developer based in Alexandria, Egypt. I began
 - **Description:** A portfolio website for Rsto, a medical company.
 - **Features:** Company information and portfolio showcase.
 
+### Base64_Project
+
+- **Description:** A converter to convert videos to text.
+- **Usage:**
+  - **EXE file:**
+    1. Create a `.txt` file where you want to save the video data and select the file path from the tool.
+    2. To convert a `.txt` file to video, create a file with the path `.mp4`.
+  - **Run Project:**
+    1. Clone the repository:
+       ```bash
+       git clone "https://github.com/hamdymohamedak/base64_project.git"
+       ```
+    2. Navigate to the project directory:
+       ```bash
+       cd base64_project
+       ```
+    3. Run the project:
+       ```bash
+       cargo run
+       ```
+    4. You can edit code from `main.rs` in the `src` folder.
+- **Screenshot:**
+
+  ![Screenshot](base64.png)
+
+### Qur’an Application (React Native)
+
+- **Description:** A Qur’an application developed with React Native that includes ablution methods, the best Islamic content creators, an electronic Qur’an, and prayer times.
+
 ## Contact
 
 Feel free to reach out to me via email or connect with me on [LinkedIn](https://www.linkedin.com/in/hamdy-mohamed).
@@ -73,3 +163,8 @@ Feel free to reach out to me via email or connect with me on [LinkedIn](https://
 - **LinkedIn:** [Hamdy Mohamed](https://www.linkedin.com/in/hamdy-askander-b67b32246/)
 
 Thank you for visiting my profile!
+
+## Acknowledgements
+
+- **React:** JavaScript library for building user interfaces.
+- **LaRose:** Library for adding animations and transitions.
