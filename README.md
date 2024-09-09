@@ -39,22 +39,22 @@ Hi, I'm Hamdy Mohamed, a Front End Developer based in Alexandria, Egypt. I began
     - npm (comes with Node.js)
   - **Installation:**
     1. Clone the repository:
-       ```bash
-       git clone https://github.com/yourusername/AkChatbot.git
-       ```
-    2. Navigate to the project directory:
-       ```bash
-       cd AkChatbot
-       ```
-    3. Install dependencies:
-       ```bash
-       npm install
-       ```
-    4. Start the development server:
-       ```bash
-       npm start
-       ```
-    Your application will be available at [http://localhost:3000](http://localhost:3000).
+```bash
+git clone https://github.com/yourusername/AkChatbot.git
+```
+2. Navigate to the project directory:
+```bash
+cd AkChatbot
+```
+3. Install dependencies:
+```bash
+npm install
+```
+4. Start the development server:
+```bash
+npm start
+```
+Your application will be available at [http://localhost:3000](http://localhost:3000).
   - **Usage:** Once the development server is running, you can interact with the chatbot directly in your browser. Customize the bot's responses and behavior by editing the relevant components and state management files.
   - **Contributing:** Contributions are welcome! Please follow these steps to contribute:
     1. Fork the repository.
