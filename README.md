@@ -77,17 +77,17 @@ Your application will be available at [http://localhost:3000](http://localhost:3
   - Use the tool to connect and view your mobile screen.
 - **Run Project:**
   1. Clone the repository:
-     ```bash
-     git clone "https://github.com/hamdymohamedak/adbtoolkit.git"
-     ```
-  2. Navigate to the project directory:
-     ```bash
-     cd adbtoolkit
-     ```
+```bash
+git clone "https://github.com/hamdymohamedak/adbtoolkit.git"
+```
+2. Navigate to the project directory:
+```bash
+cd adbtoolkit
+```
   3. Run the project:
-     ```bash
-     cargo run
-     ```
+```bash
+cargo run
+```
   4. You can edit code from `main.rs` in the `src` folder.
 
 ### WAsender
@@ -104,7 +104,7 @@ Your application will be available at [http://localhost:3000](http://localhost:3
 ![Screenshot 1](ak-macros.png)
 - **Description:** A Rust library providing powerful macros to streamline and enhance Rust development.
 - **Features:** Efficient and versatile macros for various Rust programming tasks.
-
+go to Crate Docs: [Here](https://ak-macros.vercel.app)
 ### vitHub
 
 - **Description:** A website dedicated to animals where users can contact veterinary doctors and read about common animal diseases.
@@ -147,18 +147,18 @@ Your application will be available at [http://localhost:3000](http://localhost:3
     2. To convert a `.txt` file to video, create a file with the path `.mp4`.
   - **Run Project:**
     1. Clone the repository:
-       ```bash
-       git clone "https://github.com/hamdymohamedak/base64_project.git"
-       ```
-    2. Navigate to the project directory:
-       ```bash
-       cd base64_project
-       ```
-    3. Run the project:
-       ```bash
-       cargo run
-       ```
-    4. You can edit code from `main.rs` in the `src` folder.
+```bash
+git clone "https://github.com/hamdymohamedak/base64_project.git"
+```
+2. Navigate to the project directory:
+```bash
+cd base64_project
+```
+3. Run the project:
+```bash
+cargo run
+```
+4. You can edit code from `main.rs` in the `src` folder.
 - **Screenshot:**
   ![Screenshot](base64.png)
 
