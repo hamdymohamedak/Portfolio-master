@@ -155,8 +155,6 @@ Hi, I'm Hamdy Mohamed, a Front End Developer based in Alexandria, Egypt. I began
   ![Screenshot](base64.png)
 
 ### Qur’an Application (React Native)
-
-[![Qur'an App Video](https://img.youtube.com/vi/your-video-id/maxresdefault.jpg)](https://www.youtube.com/watch?v=your-video-id)
 - **Description:** A Qur’an application developed with React Native that includes ablution methods, the best Islamic content creators, an electronic Qur’an, and prayer times.
 
 ## Contact
