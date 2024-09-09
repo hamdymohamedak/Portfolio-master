@@ -18,6 +18,7 @@ Hi, I'm Hamdy Mohamed, a Front End Developer based in Alexandria, Egypt. I began
 
 ### AkChatbot
 
+  ![Screenshot 1](ak-chatbot.png)
 - **Description:** An advanced AI chatbot application designed to deliver intelligent, interactive conversations. Built with React and LaRose, it offers cutting-edge animations and a user-friendly interface to enhance your interactive experience.
 - **Features:**
   - Intelligent Conversations: Leverages AI to provide responsive and context-aware interactions.
