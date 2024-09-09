@@ -109,7 +109,7 @@ Hi, I'm Hamdy Mohamed, a Front End Developer based in Alexandria, Egypt. I began
 
 ### EL-Maram Pharmacy
 
-<img src="elmaram1.png" alt="Screenshot 1" style="width:50px; height:50px;">
+<img src="elmaram1.png" alt="Screenshot 1" style="width:300px; height:300px;">
 <img src="elmaram2.png" alt="Screenshot 2" style="width:50px; height:50px;">
 <img src="elmaram3.png" alt="Screenshot 3" style="width:50px; height:50px;">
 - **Description:** An application for ordering delivery medications from Al Maram Pharmacies in Alexandria.
