@@ -172,7 +172,10 @@ Feel free to reach out to me via email or connect with me on [LinkedIn](https://
 - **Email:** mohameddhamdy407@gmail.com
 - **LinkedIn:** [Hamdy Mohamed](https://www.linkedin.com/in/hamdy-askander-b67b32246/)
 
-Thank you for visiting my profile!
+- that projects is just a Example for my work i have privte projects and others
+- contact With Me and Let's Work Togather.~!
+- see You Later! {~_~}
+Thank you for visiting my profile 🫶!
 
 ## Acknowledgements
 
