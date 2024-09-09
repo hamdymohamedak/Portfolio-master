@@ -6,7 +6,7 @@ Hi, I'm Hamdy Mohamed, a Front End Developer based in Alexandria, Egypt. I began
 
 ## Skills
 
-- **Languages & Technologies:** HTML, CSS, JavaScript, React.js, Next.js, Rust, Tauri.rs
+- **Languages & Technologies:** HTML, CSS, JavaScript ,sass, React.js(MUI,React-BootStrap), Next.js, Rust, Tauri.rs(Desktop App)
 - **Tools & Libraries:** Bootstrap, Larose (React Animation Library), AK Macros (Rust Library)
 
 ## Experience
