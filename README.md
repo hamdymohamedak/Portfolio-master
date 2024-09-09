@@ -91,7 +91,7 @@ Hi, I'm Hamdy Mohamed, a Front End Developer based in Alexandria, Egypt. I began
 
 - **Description:** A personal portfolio website showcasing my work and achievements.
 
-### AK-Macros
+### AK-Macros (Rust Crate)
 
 ![Screenshot 1](ak-macros.png)
 - **Description:** A Rust library providing powerful macros to streamline and enhance Rust development.
@@ -107,7 +107,7 @@ Hi, I'm Hamdy Mohamed, a Front End Developer based in Alexandria, Egypt. I began
 - **Description:** A to-do list application that allows users to record notes and ideas in local storage. Users can also organize and create different lists.
 - **Features:** Note-taking, list management, and local storage integration.
 
-### EL-Maram Pharmacy
+### EL-Maram Pharmacy (React Native)
 
 <img src="elmaram1.png" alt="Screenshot 1" style="width:300px; height:300px;">
 <img src="elmaram2.png" alt="Screenshot 2" style="width:300px; height:300px;">
@@ -130,7 +130,7 @@ Hi, I'm Hamdy Mohamed, a Front End Developer based in Alexandria, Egypt. I began
 - **Description:** A portfolio website for Rsto, a medical company.
 - **Features:** Company information and portfolio showcase.
 
-### Base64_Project
+### Base64_Project (Rust)
 
 - **Description:** A converter to convert videos to text.
 - **Usage:**
