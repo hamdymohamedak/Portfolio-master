@@ -18,7 +18,7 @@ Hi, I'm Hamdy Mohamed, a Front End Developer based in Alexandria, Egypt. I began
 
 ### AkChatbot
 
-  ![Screenshot 1](ak-chatbot.png)
+![Screenshot 1](ak-chatbot.png)
 - **Description:** An advanced AI chatbot application designed to deliver intelligent, interactive conversations. Built with React and LaRose, it offers cutting-edge animations and a user-friendly interface to enhance your interactive experience.
 - **Features:**
   - Intelligent Conversations: Leverages AI to provide responsive and context-aware interactions.
@@ -63,7 +63,6 @@ Hi, I'm Hamdy Mohamed, a Front End Developer based in Alexandria, Egypt. I began
   - Runs `scrcpy` to view your mobile screen on your laptop or PC.
   - Eliminates the need to use the command line.
 - **Screenshot:**
-
   ![Screenshot 1](adbToolkit.png)
 - **Usage:**
   - Add the path to `adb` and `scrcpy` tools in your system's advanced system settings.
@@ -93,8 +92,8 @@ Hi, I'm Hamdy Mohamed, a Front End Developer based in Alexandria, Egypt. I began
 - **Description:** A personal portfolio website showcasing my work and achievements.
 
 ### AK-Macros
-  ![Screenshot 1](ak-macros.png)
 
+![Screenshot 1](ak-macros.png)
 - **Description:** A Rust library providing powerful macros to streamline and enhance Rust development.
 - **Features:** Efficient and versatile macros for various Rust programming tasks.
 
@@ -109,9 +108,10 @@ Hi, I'm Hamdy Mohamed, a Front End Developer based in Alexandria, Egypt. I began
 - **Features:** Note-taking, list management, and local storage integration.
 
 ### EL-Maram Pharmacy
-  ![Screenshot 1](elmaram1.png)
-  ![Screenshot 1](elmaram2.png)
-  ![Screenshot 1](elmaram3.png)
+
+<img src="elmaram1.png" alt="Screenshot 1" style="width:50px; height:50px;">
+<img src="elmaram2.png" alt="Screenshot 2" style="width:50px; height:50px;">
+<img src="elmaram3.png" alt="Screenshot 3" style="width:50px; height:50px;">
 - **Description:** An application for ordering delivery medications from Al Maram Pharmacies in Alexandria.
 - **Features:** Medication ordering and delivery services.
 
@@ -152,7 +152,6 @@ Hi, I'm Hamdy Mohamed, a Front End Developer based in Alexandria, Egypt. I began
        ```
     4. You can edit code from `main.rs` in the `src` folder.
 - **Screenshot:**
-
   ![Screenshot](base64.png)
 
 ### Qur’an Application (React Native)
