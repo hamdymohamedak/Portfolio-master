@@ -13,10 +13,13 @@ Hi, I'm Hamdy Mohamed, a Front End Developer based in Alexandria, Egypt. I began
 - sass,
 - React.js(MUI,React-BootStrap),
 - Next.js,
+- Electron.js
+- TailwindCss 
 - Rust,
 - Tauri.rs(Desktop Apps)
-- **Tools & Libraries:** Bootstrap, Larose (React Animation Library), AK Macros (Rust Library)
-
+- **Tools & Libraries ibuild it :**
+- , Larose (React Animation Library)
+- Ak macros (Rust Syntax Library)
 ## Experience
 
 - **Mobile App Development:** Developed mobile applications for prominent companies in Alexandria, including Elmaram Pharmacy.
