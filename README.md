@@ -12,6 +12,7 @@ Hi, I'm Hamdy Mohamed, a Front End Developer based in Alexandria, Egypt. I began
 - JavaScript ,
 - sass,
 - React.js(MUI,React-BootStrap),
+- React Native
 - Next.js,
 - Electron.js
 - TailwindCss 
