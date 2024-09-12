@@ -167,11 +167,12 @@ cargo run
 
 ### Qur’an Application (React Native)
 - **Description:** A Qur’an application developed with React Native that includes ablution methods, the best Islamic content creators, an electronic Qur’an, and prayer times.
-and More
-- CSS-Vita(CSS framework)
-- AKCLI (Terminal)
-- AKGUI (System requirements App)
-- and More
+
+#  More
+- ## CSS-Vita(CSS framework)
+- ## AKCLI (Terminal)
+- ## AKGUI (Sys requirements App)
+- and More I'll let you explore.😴
 ## Contact
 
 Feel free to reach out to me via email or connect with me on [LinkedIn](https://www.linkedin.com/in/hamdy-mohamed).
