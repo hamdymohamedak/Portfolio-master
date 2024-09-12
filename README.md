@@ -2,7 +2,7 @@
 
 ## About Me
 
-Hi, I'm Hamdy Mohamed, a Front End Developer based in Alexandria, Egypt. I began my programming journey in 2020 and have since built a diverse set of skills and experience. My work spans web, mobile, and desktop applications, with notable achievements in both front-end and back-end technologies.
+Hi, I'm Hamdy Mohamed, a Front End Developer based in Alexandria, Egypt. I began my programming journey in 2020 and have since built a diverse set of skills and experience. My work spans web, mobile, and desktop applications, with notable achievements in both front-end technologies.
 
 ## Skills
 
@@ -167,7 +167,11 @@ cargo run
 
 ### Qur’an Application (React Native)
 - **Description:** A Qur’an application developed with React Native that includes ablution methods, the best Islamic content creators, an electronic Qur’an, and prayer times.
-
+and More
+- CSS-Vita(CSS framework)
+- AKCLI (Terminal)
+- AKGUI (System requirements App)
+- and More
 ## Contact
 
 Feel free to reach out to me via email or connect with me on [LinkedIn](https://www.linkedin.com/in/hamdy-mohamed).
