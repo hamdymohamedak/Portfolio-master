@@ -18,7 +18,7 @@ Hi, I'm Hamdy Mohamed, a Front End Developer based in Alexandria, Egypt. I began
 - TailwindCss 
 - Rust,
 - Tauri.rs(Desktop Apps)
-- **Tools & Libraries ibuild it :**
+- **Tools & Libraries i built it :**
 - , Larose (React Animation Library)
 - Ak macros (Rust Syntax Library)
 ## Experience
