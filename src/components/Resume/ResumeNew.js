@@ -39,6 +39,17 @@ function ResumeNew() {
 
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
+            onClick={()=>{
+              window.open("https://hamdymohamedak.vercel.app")
+            }}
+            variant="primary"
+            target="_blank"
+            style={{ maxWidth: "250px" }}
+          >
+            &nbsp;OnLine Resume 
+          </Button>
+            
+            <Button
             variant="primary"
             href={pdf}
             target="_blank"
