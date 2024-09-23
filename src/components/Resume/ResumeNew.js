@@ -37,8 +37,7 @@ function ResumeNew() {
           </Document>
         </Row>
 
-        <Row style={{ justifyContent: "center", position: "relative" }}>
-          <Button
+            <Button
             onClick={()=>{
               window.open("https://hamdymohamedak.vercel.app")
             }}
@@ -49,6 +48,7 @@ function ResumeNew() {
             &nbsp;OnLine Resume 
           </Button>
             
+        <Row style={{ justifyContent: "center", position: "relative" }}>
             <Button
             variant="primary"
             href={pdf}
