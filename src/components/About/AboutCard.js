@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import Card from "react-bootstrap/Card";
 import { ImPointRight } from "react-icons/im";
 import { Octokit } from "@octokit/core";
-import { AnimatedText } from "../../LaRose";
 function AboutCard() {
   const [githubRepos, setGithubRepos] = useState([]);
 

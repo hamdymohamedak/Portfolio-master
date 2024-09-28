@@ -3,6 +3,15 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import myLogo from "../../Assets/logo.svg";
+import Wasender from "../../Assets/Projects/WaSender.png";
+import vitHub from "../../Assets/Projects/Vithub.png";
+import ToDoEase from "../../Assets/Projects/ToDoEas.png";
+import ADBTOOLKIT from "../../Assets/Projects/ADBTOOLKIT.png";
+import elmaram from "../../Assets/Projects/ELMARAM.png";
+import akgames from "../../Assets/Projects/AKGames.png";
+import CodeMinifyer from "../../Assets/Projects/code-Editor.png";
+import Rsto from "../../Assets/Projects/Rsto.png";
+
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -17,7 +26,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath="https://i.ibb.co/bLyJtQZ/chatify.png"
+              imgPath={Wasender}
               isBlog={false}
               title="WAsender"
               description="app can send whatsApp message with timer,  || Portfolio website"
@@ -36,7 +45,7 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={"https://hamdymohamedak.github.io/vithub/img/home.png"}
+              imgPath={vitHub}
               isBlog={false}
               title="vitHub"
               description="vitHub is a website for animals you can at website contact with vit doctors and at blog page you can see The most famous animal diseases and More "
@@ -45,7 +54,7 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath="https://i.ibb.co/h2N3PvJ/blog.png"
+              imgPath={ToDoEase}
               isBlog={false}
               title="TODOEASE"
               description="TODOLIST,Record your notes and ideas at LocalSTORAGE, and you can also arrange them and create different lists for different ideas"
@@ -55,7 +64,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath="https://i.ibb.co/y4CLWQQ/leaf.png"
+              imgPath={ADBTOOLKIT}
               isBlog={false}
               title="ADBTOOLKIT"
               description="A tool that uses ADB and scrcpy to connect your phone's IP to Windows without writing code in the command line."
@@ -65,7 +74,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath="https://i.ibb.co/HqJ0QfL/suicide.png"
+              imgPath={elmaram}
               isBlog={false}
               title="EL-Maram pharmacy"
               description="An application to order delivery medications from Al Maram Pharmacies in Alexandria"
@@ -75,7 +84,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath="https://i.ibb.co/0rnpkn6/emotion.png"
+              imgPath={akgames}
               isBlog={false}
               title="AKGames"
               description="download games for free Now with AKGames its a website have games for download it for free"
@@ -85,7 +94,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath="https://i.ibb.co/8Mm3F96/code-Editor.png"
+              imgPath={CodeMinifyer}
               isBlog={false}
               title="CodeMinifyer"
               description="CSS code minifyer for more performance to your WebSite"
@@ -94,7 +103,7 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath="https://i.ibb.co/fMXQtr4/logo.png"
+              imgPath={Rsto}
               isBlog={false}
               title="Rsto-Medical"
               description="Rsto is a Medical Company & PORTFOLIO"

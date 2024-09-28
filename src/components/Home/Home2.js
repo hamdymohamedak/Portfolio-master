@@ -1,5 +1,6 @@
 import React, { memo } from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import { Image } from "larose-js";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -7,7 +8,7 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
-
+import Avatar from "../../Assets/Logo.png";
 const Home2 = memo(() => {
   return (
     <Container fluid className="home-about-section" id="about">
@@ -31,9 +32,7 @@ const Home2 = memo(() => {
               <i>
                 <b className="purple">Web Technologies and Products </b> and
                 also in areas related to{" "}
-                <b className="purple">
-                  Mobile Apps with React Native.
-                </b>
+                <b className="purple">Mobile Apps with React Native.</b>
               </i>
               <br />
               <br />
@@ -53,10 +52,14 @@ const Home2 = memo(() => {
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src="https://i.ibb.co/tBF44XN/logo.png" loading="lazy" className="img-fluid" alt="avatar"
-                style={{
-                  maxWidth: "100%", height: "auto", boxShadow: "0px 0px 9px 0px cyan",
-                  borderRadius: "12%"
+              <Image
+                src={Avatar}
+                RoseName="img-fluid"
+                edit={{
+                  maxWidth: "100%",
+                  height: "auto",
+                  boxShadow: "0px 0px 9px 0px cyan",
+                  borderRadius: "12%",
                 }}
               />
             </Tilt>

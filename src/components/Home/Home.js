@@ -1,11 +1,10 @@
+import { Image } from "larose-js";
 import React, { Suspense, lazy } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
 import Type from "./Type";
-import { AnimatedText,WaveText } from "../../LaRose";
 const Home2 = lazy(() => import("./Home2"));
-
 function Home() {
   return (
     <section>
@@ -23,12 +22,7 @@ function Home() {
 
               <h1 className="heading-name">
                 I'M
-                <strong className="main-name">
-                  <WaveText delay={0.35} animationType="zoomIn">
-                    Hamdy-Mohamed
-                  </WaveText>
-                </strong>
-                {/* <WaveText  RoseName="main-name">Hamdy-Mohamed</WaveText> */}
+                <strong className="main-name">Hamdy-Mohamed</strong>
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
@@ -37,12 +31,11 @@ function Home() {
             </Col>
 
             <Col md={5} style={{ paddingBottom: 20 }}>
-              <img
+              <Image
                 src={homeLogo}
-                alt="home pic"
-                className="img-fluid"
-                style={{ maxHeight: "450px" }}
-                loading="lazy"
+                quality={0.1}
+                RoseName="img-fluid"
+                edit={{ maxHeight: "450px" }}
               />
             </Col>
           </Row>
